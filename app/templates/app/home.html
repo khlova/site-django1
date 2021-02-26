@@ -1,0 +1,11 @@
+{% extends 'app/index.html' %}
+
+{% block title %}
+  {{ title }}
+{% endblock %}
+
+{% block body %}
+  <h1 class="display-3 font-weight-normal">Простой и удобный сервис</h1>
+  <h1 class="font-weight-normal py-4">Делаем работу быстро и качественно</h1>
+  <a href="{% url 'service' %}"><button class="btn btn-outline-warning p-3">Посмотреть услуги</button></a>
+{% endblock %}

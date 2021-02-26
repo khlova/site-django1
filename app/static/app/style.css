@@ -1,0 +1,67 @@
+header {
+    justify-content: space-between;
+}
+
+.logo img{
+  width: 75px;
+  height: 75px;
+  margin-right: 5px;
+}
+.logo {
+  color: #C1C8E4;
+  transition: all 600ms ease;
+  margin-left: 5%;
+
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  text-decoration: none;
+  color: #84CEEB;
+}
+
+.nav a {
+  color: #C1C8E4;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  color: #84CEEB;
+  cursor: pointer;
+}
+
+.nav {
+    padding-right: 5%;
+}
+
+
+
+body{
+  background:
+      linear-gradient(217deg, #5680E9, rgba(255,0,0,0) 70.71%),
+      linear-gradient(127deg, #5AB9EA, rgba(0,255,0,0) 70.71%),
+      linear-gradient(336deg, #8860D0, rgba(0,0,255,0) 70.71%);
+  height: 100%;
+}
+
+body h1, body h3{
+  color: #e8edff;
+  text-shadow: 2px 2px 5px #3a3c4f;
+
+}
+
+.container > div {
+  margin: 25% 0 25% 0;
+}
+
+.btn {
+  border-color: #8860D0;
+  color: #8860D0;
+}
+
+.btn:hover {
+  background-color: #8860D0;
+  color: white;
+  border: none;
+}
